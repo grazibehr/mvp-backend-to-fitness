@@ -1,29 +1,7 @@
 # To Fitness API
 
-API REST desenvolvida em **Python + FastAPI** para o sistema **To Fitness** — plataforma de controle de treinos, refeições e metas de saúde pessoal.
+API REST desenvolvida em **Python + FastAPI** para o sistema **To Fitness**, plataforma de controle de treinos, refeições e metas de saúde pessoal.
 
----
-
-## Arquitetura
-
-```
-┌─────────────────────────────────┐
-│  Frontend Vue 3 (to-fitness)    │
-│  port 5173                      │
-└─────────────────────────────────┘
-         │ REST (GET / POST / PUT / DELETE)
-         ▼
-┌─────────────────────────────────┐      ┌──────────────────────────────┐
-│  To Fitness API (FastAPI)       │─────▶│  Open Food Facts             │
-│  SQLite + SQLAlchemy            │      │  world.openfoodfacts.org     │
-│  port 8000  →  /docs (Swagger)  │─────▶│  Wger Workout Manager        │
-└─────────────────────────────────┘      │  wger.de/api/v2              │
-                                         │  TheMealDB                   │
-                                         │  themealdb.com/api           │
-                                         └──────────────────────────────┘
-```
-
----
 
 ## APIs Externas utilizadas
 
