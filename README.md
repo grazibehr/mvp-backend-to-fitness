@@ -6,7 +6,7 @@ API REST desenvolvida em **Python + FastAPI** para o sistema **To Fitness**, pla
 ## APIs Externas utilizadas
 
 ### Open Food Facts
-- **URL**: https://world.openfoodfacts.org
+- **URL**: https://openfoodfacts.github.io/openfoodfacts-server/api/
 - **Licença**: Open Database License (ODbL)
 - **Cadastro**: Não necessário
 - **Rotas consumidas**:
@@ -23,7 +23,7 @@ API REST desenvolvida em **Python + FastAPI** para o sistema **To Fitness**, pla
   - `GET /muscle/` — grupos musculares
 
 ### TheMealDB
-- **URL**: https://www.themealdb.com/api/json/v1/1
+- **URL**: [https://www.themealdb.com/api/json/v1/1](https://www.themealdb.com/api.php)
 - **Licença**: Gratuita para uso pessoal e educacional (Creative Commons)
 - **Cadastro**: Não necessário
 - **Rotas consumidas**:
